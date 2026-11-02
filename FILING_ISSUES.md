@@ -37,7 +37,6 @@ Paste the actual output verbatim (terminal output, log lines, HTTP responses, `s
 
 - Logs from `~/.sylvie/logs/` (or the dev data dir printed by `pnpm dev`), trimmed to the relevant window.
 - Thread ids (`thr_…`), project ids, environment ids when relevant. They are primary keys and let us query the database directly.
-- If you cite code, use a permalink to a commit: `https://github.com/dea6cat/Sylvie/blob/<sha>/<path>#L<n>-L<m>`. Branch links rot.
 - If you measured something (memory, timings, counts), say how.
 
 ### 6. What you ruled out
@@ -63,7 +62,7 @@ Agents file many issues in this repo. The same bar applies, plus:
 - Include the base commit you tested against and permalinks to the code you cite.
 - Link the sylvie thread or the investigation report that produced the finding.
 - Do not open duplicates: search first, and if you find the same root cause under a different symptom, comment on the existing issue with the new evidence.
-- End the body with `> AGENT GENERATED` (see [AGENTS.md](../AGENTS.md)).
+- End the body with `> AGENT GENERATED` .
 
 ## Triage labels you may see
 
